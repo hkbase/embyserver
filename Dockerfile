@@ -9,4 +9,3 @@ COPY embypremiere.js /opt/emby-server/system/dashboard-ui/embypremiere/
 COPY Emby.Server.Implementations.dll /opt/emby-server/system/
 RUN systemctl start emby-server
 CMD ["/startup.sh"]
-
